@@ -14,14 +14,14 @@ function encriptar(){
 
     if(texto.length !=0){
         document.getElementById("texto").value= textoCifrado;
-        tituloMensaje.textContent= "Texto encriptado con exito";
+        tituloMensaje.textContent= "Texto encriptado con exito.";
         parrafo.textContent= "";
         muñeco.src= "./imagenes/encriptado.gif";
     }else{
         muñeco.src= "./imagenes/texto.gif";
-        tituloMensaje.textContent= "Ningún mensaje fue encontrado"
+        tituloMensaje.textContent= "Ningún mensaje fue encontrado."
         parrafo.textContent= "Ingresa el texto que desees encríptar o desencriptar.";
-        swal("ooops!", "Debes ingresar algun texto", "warning");
+        swal("ooops!", "Debes ingresar algun texto.", "warning");
     }    
 }
 
@@ -39,13 +39,13 @@ function desencriptar(){
         .replace(/ufat/,"u")
     if(texto.length !=0){
         document.getElementById("texto").value= textoCifrado;
-        tituloMensaje.textContent= "Texto desencriptado con exito";
+        tituloMensaje.textContent= "Texto desencriptado con exito.";
         parrafo.textContent= "";
         muñeco.src= "./imagenes/desencriptado.gif";
     }else{
         muñeco.src= "./imagenes/texto.gif";
-        tituloMensaje.textContent= "Ningún mensaje fue encontrado"
+        tituloMensaje.textContent= "Ningún mensaje fue encontrado."
         parrafo.textContent= "Ingresa el texto que desees encríptar o desencriptar.";
-        swal("ooops!", "Debes ingresar algun texto", "warning");
+        swal("ooops!", "Debes ingresar algun texto.", "warning");
     }
 }

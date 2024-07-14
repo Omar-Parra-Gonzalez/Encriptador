@@ -120,12 +120,26 @@
     color: #0a3871;
 }
 
-.btn-desencriptar:hover,
-.btn-encriptar:hover{
-    margin: 0.3%;
-    width: 24%;
-    padding: 2%;
-}
+
+.btn-desencriptar, 
+.btn-encriptar {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #318aac;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    margin-left: 1%;
+  }
+  .btn-desencriptar:hover, 
+  .btn-encriptar:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;
+  }
+
 
 .encriptado{
     display: flex;
