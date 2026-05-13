@@ -1,4 +1,4 @@
-Challenge Alura Latam / Oracle
+Challenge Oracle / Alura Latam 
 
 Este proyecto fue desarrollado como parte de un desafío propuesto por Alura con el objetivo de aplicar los conocimientos adquiridos durante los módulos de formación.
 
